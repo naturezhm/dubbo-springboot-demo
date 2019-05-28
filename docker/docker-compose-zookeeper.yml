@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  zoo:
+    image: 31z4/zookeeper
+    restart: always
+    hostname: monkey-zookeeper
+    ports:
+      - 2181:2181
